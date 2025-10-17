@@ -1,0 +1,22 @@
+# Configuração para o GitHub detectar Go como linguagem principal
+*.go linguist-language=Go
+*.js linguist-vendored
+*.ts linguist-vendored
+*.tsx linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
+*.json linguist-vendored
+
+# Forçar Go como linguagem principal
+backend/* linguist-language=Go
+frontend/* linguist-vendored
+
+# Ignorar arquivos de dependências na detecção de linguagem
+node_modules/* linguist-vendored
+vendor/* linguist-vendored
+*.min.js linguist-vendored
+*.min.css linguist-vendored
+
+# Marcar Go como linguagem principal do projeto
+* linguist-language=Go
+*.go linguist-detectable=true
