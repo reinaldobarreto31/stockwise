@@ -1,6 +1,16 @@
-# StockWise - Sistema de Controle de Estoque
+# 📦 StockWise - Sistema de Controle de Estoque
 
-Sistema completo de controle de estoque desenvolvido com Go (backend) e React TypeScript (frontend), utilizando PostgreSQL como banco de dados.
+<div align="center">
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+Sistema completo de controle de estoque desenvolvido com **Go (Golang)** no backend e **React TypeScript** no frontend, utilizando **PostgreSQL** como banco de dados.
 
 ## 🚀 Funcionalidades
 
@@ -11,28 +21,41 @@ Sistema completo de controle de estoque desenvolvido com Go (backend) e React Ty
 - **Dashboard**: Visualização de estatísticas e gráficos
 - **Alertas**: Notificações para produtos com estoque baixo
 
-## 🛠️ Tecnologias
+## 🛠️ Stack Tecnológica
 
-### Backend
-- **Go 1.21+**
-- **Gin** - Framework web
-- **GORM** - ORM para Go
-- **PostgreSQL** - Banco de dados
-- **JWT** - Autenticação
-- **bcrypt** - Hash de senhas
-- **gofpdf** - Geração de PDFs
+### 🔧 Backend (Go/Golang)
+<div align="left">
 
-### Frontend
-- **React 18**
-- **TypeScript**
-- **Axios** - Cliente HTTP
-- **Recharts** - Gráficos e visualizações
-- **CSS-in-JS** - Estilização
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) **Go 1.21+** - Linguagem principal do backend  
+![Gin](https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=white) **Gin** - Framework web rápido e minimalista  
+![GORM](https://img.shields.io/badge/GORM-00ADD8?style=flat-square&logo=go&logoColor=white) **GORM** - ORM elegante para Go  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) **PostgreSQL** - Banco de dados relacional  
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) **JWT** - Autenticação stateless  
+![bcrypt](https://img.shields.io/badge/bcrypt-00ADD8?style=flat-square&logo=go&logoColor=white) **bcrypt** - Hash seguro de senhas  
+![PDF](https://img.shields.io/badge/gofpdf-00ADD8?style=flat-square&logo=go&logoColor=white) **gofpdf** - Geração de relatórios PDF  
 
-### DevOps
-- **Docker** - Containerização
-- **Docker Compose** - Orquestração
-- **Nginx** - Servidor web para frontend
+</div>
+
+### 🎨 Frontend
+<div align="left">
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) **React 18** - Biblioteca para interfaces  
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) **TypeScript** - JavaScript tipado  
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white) **Axios** - Cliente HTTP  
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square&logo=chart.js&logoColor=white) **Recharts** - Gráficos e visualizações  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) **CSS-in-JS** - Estilização moderna  
+
+</div>
+
+### 🚀 DevOps & Infraestrutura
+<div align="left">
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) **Docker** - Containerização de aplicações  
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white) **Docker Compose** - Orquestração de containers  
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) **Nginx** - Servidor web para frontend  
+![pgAdmin](https://img.shields.io/badge/pgAdmin-336791?style=flat-square&logo=postgresql&logoColor=white) **pgAdmin** - Interface de administração PostgreSQL  
+
+</div>
 
 ## 📋 Pré-requisitos
 
