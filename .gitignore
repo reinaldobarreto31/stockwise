@@ -1,0 +1,86 @@
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Arquivos de teste
+*.test
+
+# Arquivos de cobertura de teste
+*.out
+coverage.txt
+
+# Dependências Go
+vendor/
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build do React
+frontend/build/
+frontend/dist/
+
+# Cache do React
+frontend/.eslintcache
+
+# Docker
+.docker/
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+tmp/
+temp/
+.tmp/
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# Certificados e chaves
+*.pem
+*.key
+*.crt
+*.p12
+
+# Dados de volume do Docker
+pgdata/
+pgadmin_data/
